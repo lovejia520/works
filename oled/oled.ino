@@ -52,16 +52,16 @@ ESP8266WebServer server(80);
 
 
 //----------WIFI连接配置----------
-const char* ssid     = "CMCC-R1s-7kX5";       // 连接WiFi名（此处使用XXX为示例）                                   
-const char* password = "wang39546876";          // 连接WiFi密码（此处使用12345678为示例）
+const char* ssid     = "XXX";       // 连接WiFi名（此处使用XXX为示例）                                   
+const char* password = "12345678";          // 连接WiFi密码（此处使用12345678为示例）
                                             // 请将您需要连接的WiFi密码填入引号中
 //----------天气API配置----------
 const char* host = "api.seniverse.com";   // 将要连接的服务器地址  
 const int httpPort = 80;              // 将要连接的服务器端口      
 
 // 心知天气HTTP请求所需信息
-String reqUserKey = "SlDmC2iFUSKpzhRCw";   // 私钥
-String reqLocation = "suzhou";            // 城市
+String reqUserKey = "XXXX";   // 私钥
+String reqLocation = "XXXX";            // 城市
 String reqUnit = "c";                      // 摄氏/华氏
 
 //----------设置屏幕----------
